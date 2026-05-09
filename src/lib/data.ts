@@ -72,7 +72,7 @@ export const PROJECTS = [
     fullDesc: 'An ML-based web application that classifies news articles as Real or Fake using Natural Language Processing. Built with a complete data pipeline from raw text to live predictions with an interactive Streamlit interface.',
     image: '/images/fake-news.png',
     metrics: [
-      { label: 'Accuracy', value: '94%+' },
+      { label: 'Accuracy', value: '61%+' },
       { label: 'Models Compared', value: '3' },
       { label: 'Tech Stack', value: '5 tools' },
     ],
@@ -85,7 +85,7 @@ export const PROJECTS = [
     ],
     tech: ['Python', 'NLP', 'Scikit-learn', 'Streamlit', 'TF-IDF', 'Pandas'],
     github: 'https://github.com/Anuj7878/fake-news-detection-system',
-    live: '',
+    live: 'https://fake-news-detection-system-8jwe5qi2fjanbdfdlnssjb.streamlit.app/',
   },
   {
     id: 'pipeline',
@@ -109,7 +109,7 @@ export const PROJECTS = [
     ],
     tech: ['Python', 'Pandas', 'SQL', 'PostgreSQL', 'Power BI', 'ETL'],
     github: 'https://github.com/Anuj7878',
-    live: '',
+    live: 'https://job-data-pipeline-regdcbcuglsqyrzrb8cyx4.streamlit.app/',
   },
   {
     id: 'spam',
@@ -165,40 +165,48 @@ export const PROJECTS = [
   live: '',
 },
 {
+  
   id: 'insurance',
-  number: '04',
-  featured: false,
-  title: 'Insurance Claims Analytics System',
-  shortDesc: 'Business intelligence project analyzing 1M+ insurance policy records, claim trends, loss ratios, and future liabilities using Python and Pandas.',
+  number: '05',
+  featured: true,
+
+  title: 'Insurance Claims Analytics Dashboard',
+
+  shortDesc:
+    'Interactive insurance analytics dashboard built with Streamlit, Pandas, and Plotly to analyze claim trends, loss ratios, portfolio performance, and future liabilities.',
 
   fullDesc:
-    'Built a large-scale insurance analytics pipeline with synthetic policy and claims simulation. Performed profitability analysis, claim trend tracking, loss ratio evaluation, and future liability estimation using Python, Pandas, and business intelligence concepts.',
+    'Developed a production-style insurance analytics dashboard using Python, Pandas, Streamlit, and Plotly. The system analyzes insurance claim trends, claim distributions, portfolio profitability, loss ratios, and future liabilities using large synthetic insurance datasets.',
+
+  image: '/images/insurance.png',
 
   metrics: [
-    { label: 'Records', value: '1M+' },
+    { label: 'Policies', value: '1M+' },
     { label: 'Claims', value: '49K+' },
     { label: 'Loss Ratio', value: '36%' },
   ],
 
   highlights: [
-    'Generated synthetic insurance datasets with 1M+ policy records',
+    'Built an interactive Streamlit dashboard for insurance analytics',
     'Analyzed monthly claim trends and portfolio profitability',
-    'Calculated claim-to-premium loss ratios by policy tenure',
+    'Calculated claim-to-premium loss ratios',
+    'Visualized claim type distributions using Plotly charts',
     'Estimated future insurance claim liabilities',
-    'Created analytical business report with insights and visualizations',
+    'Created business insights and portfolio summary reports',
   ],
 
   tech: [
     'Python',
     'Pandas',
     'NumPy',
+    'Streamlit',
+    'Plotly',
     'Data Analytics',
-    'Business Intelligence',
-    'Matplotlib',
   ],
 
   github: 'https://github.com/Anuj7878/insurance-claims-analytics',
-  live: '',
+
+  live: 'https://insurance-claims-analytics-tmnk5cbxemn3zcx6vqby8g.streamlit.app/',
 },]
 
 export const EXPERIENCE = [
