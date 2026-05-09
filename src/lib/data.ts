@@ -163,6 +163,42 @@ export const PROJECTS = [
   github: 'https://github.com/Anuj7878/Diwali-Sales-Analysis',
 
   live: '',
+},
+{
+  id: 'insurance',
+  number: '04',
+  featured: false,
+  title: 'Insurance Claims Analytics System',
+  shortDesc: 'Business intelligence project analyzing 1M+ insurance policy records, claim trends, loss ratios, and future liabilities using Python and Pandas.',
+
+  fullDesc:
+    'Built a large-scale insurance analytics pipeline with synthetic policy and claims simulation. Performed profitability analysis, claim trend tracking, loss ratio evaluation, and future liability estimation using Python, Pandas, and business intelligence concepts.',
+
+  metrics: [
+    { label: 'Records', value: '1M+' },
+    { label: 'Claims', value: '49K+' },
+    { label: 'Loss Ratio', value: '36%' },
+  ],
+
+  highlights: [
+    'Generated synthetic insurance datasets with 1M+ policy records',
+    'Analyzed monthly claim trends and portfolio profitability',
+    'Calculated claim-to-premium loss ratios by policy tenure',
+    'Estimated future insurance claim liabilities',
+    'Created analytical business report with insights and visualizations',
+  ],
+
+  tech: [
+    'Python',
+    'Pandas',
+    'NumPy',
+    'Data Analytics',
+    'Business Intelligence',
+    'Matplotlib',
+  ],
+
+  github: 'https://github.com/Anuj7878/insurance-claims-analytics',
+  live: '',
 },]
 
 export const EXPERIENCE = [
